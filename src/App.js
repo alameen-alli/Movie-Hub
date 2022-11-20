@@ -27,7 +27,18 @@ const App = () => {
         <div className="search">
             <input 
                 placeholder="Search for movies..."
+                value="Superman"
+                onChange={() => {}}
             />
+            <img
+                src={SearchIcon}
+                alt="search"
+                onChange={() => {}}
+            />
+        </div>
+
+        <div className="container">
+
         </div>
     </div>
   );
